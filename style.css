@@ -1,0 +1,73 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: hsl(219, 48%, 80%);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+.height {
+  height: calc(100vh - 1px);
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-jc-center {
+  justify-content: center;
+}
+
+.flex-ai-center {
+  align-items: center;
+}
+
+.padding-25 {
+  padding: 25px;
+}
+
+.br-25 {
+  border-radius: 25px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-dark-blue {
+  color: hsl(218, 44%, 22%);
+}
+
+.text-grey-blue {
+  color: hsl(220, 15%, 55%);
+}
+
+@media (min-width: 500px) {
+  div {
+    width: 375px; 
+  }
+}
